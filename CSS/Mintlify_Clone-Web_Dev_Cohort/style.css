@@ -1,0 +1,256 @@
+ @import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0;
+    font-family:Inter ;
+    margin: 0;
+    color: #FFFFFF;  
+}
+
+.pointer:hover{
+cursor: pointer;
+font-family:'Open Sans';
+}
+.none{
+    text-decoration: none;
+}
+.bg_remover{
+    background-color: transparent;
+}
+.hover_effect{
+    background-color: white;
+}
+.hover_effect:hover{
+  background-color: #D9DADD;
+}
+body{
+     background-color: #08090A;
+}
+
+/*Styling Nav-Bar*/
+
+header{
+    display: flex;
+    height: 65px;
+    justify-content: space-evenly;
+     align-items: center;
+     width: 80vw;
+     margin: auto;
+     a{
+        display: inline-block;
+        text-decoration: none;
+     }
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-image: url(nav_bg.png);
+    margin-bottom: 50px;
+    position: fixed;
+    top: 0;
+}
+
+#nav_start{
+    display: flex;
+     align-items: center;
+     width: 104px;
+     height: 24px;
+     svg>path{
+        color: white;
+     }
+}
+#nav_mid{
+    display: flex;
+     justify-content: space-evenly;
+      align-items: center;
+     width: 500px;
+     height: 32px;
+}
+#nav_end{
+    display: flex;
+     justify-content: space-evenly;
+      align-items: center;
+      width: 250px;
+#free_btn{
+    color: black;
+    border: 2.5px solid transparent;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+}
+
+.hero_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .img{
+background-image: url(Public/bg_hero.png);
+    width: 100vw;
+    height: 200vh;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    }
+
+    
+    a{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #152740;
+        width: fit-content;
+        border-radius: 23px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        span{
+            font-size: 12px;
+            background-color: #0C8C5E;
+            margin-right: 20px;
+            padding: 4px 6px;
+            border-radius:20px ;
+        }
+        i{
+            background-color: #FFFFFF;
+            color: black;
+            font-size: 0.8rem;
+            border-radius: 20px;
+        }
+        p{
+            font-size: 14px;
+        }   
+    }
+    h1{
+        margin-bottom:15px ;
+        font-size: 64px;
+    }
+    #intro{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 29px;
+    }
+   
+    form{
+        padding: 5px 16px;
+        border-radius: 20px;
+        background-color: rgba(255,255,255,0.3);;
+        input{
+            /* text-align: center; */
+            padding: 2px;
+            border-radius: 20px;
+            border: none;
+            font-size: 0.87rem;
+            color: white;
+             background-color: rgba(255,255,255,0);
+             outline: none;
+             overflow:hidden ;
+        }
+       
+        button{ 
+            position: relative;
+            left: 15px;
+            text-align: center;
+            color: black;
+            border: transparent;
+            padding: 9px;
+            padding-right: 7px;
+            border-radius: 20px;
+        }
+    }
+    margin-bottom: 100px;
+}
+.hero_image{
+    width: 60vw;
+    height: 100vh;
+    
+        background-image: url(https://www.mintlify.com/hero/hero-image-dark.svg);
+        background-size: cover;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+   
+    .companies_logo{
+margin: auto;
+        margin-bottom: 100px;
+        display: grid;
+        width: 70vw;
+        height: 20vh;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-between;
+    #a1{
+        font-weight: 900;
+    }
+    #a2{
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 2rem;
+
+    }
+    #a3{
+        font-weight: 900;
+        grid-area: 1/3/2/4;
+        display: flex;
+        div{
+             position: relative;
+             background-image: url(Public/microsoft_logo.svg);
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        }
+        p{
+       position: relative;
+       top: 15px;
+        }
+    }
+    #a5{
+        grid-area: 1/2/2/3;
+        p{
+            position: relative;
+            bottom: 6.5px;
+            color: #4D7BDC;
+            font-weight: 900;
+            font-size: 1.45rem;
+        }
+    }
+    }
+    .tag1{
+        width: 500px;
+        margin:auto;
+        margin-bottom: 120px;
+       h2{
+        margin-bottom: 20px;
+       }
+        pre{
+            font-size: 0.8rem;
+            color: rgb(222, 220, 220);
+        }
+    }
+    .tag2{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom:120px;
+        width: 50vw;
+        .green{
+            color:lawngreen;
+            margin-bottom:15px;
+        }
+        .a{
+          h2{
+            margin-bottom:15px;
+          }
+        }
+        .b{
+          h2{
+            margin-bottom:15px;
+          }
+        }
+
+    }
