@@ -25,5 +25,11 @@ Follow these steps to run the project locally.
 
 ## In the JS Folder
 <ul>
-<li>Built My Own polyphil library of methods like map,flat,foreach,filter,reduce,Object.keys(),Object.values(),Object.entries()</li>
+
+**Inside polyphils**
+<li>Built My Own polyphil library of methods like map,flat,foreach,filter,reduce,Object.keys(),Object.values(),Object.entries()</li><br>
+
+**Inside js-github-assignments**
+<li>Injected My github Assignment given by @chaicode team , grateful to Hitesh sir, Piyush Sir, Anirudh Sir and all the TA's for these assignments</li>
+
 </ul>
