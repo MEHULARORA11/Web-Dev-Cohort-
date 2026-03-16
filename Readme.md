@@ -26,14 +26,14 @@ Follow these steps to run the project locally.
 ## In the JS Folder
 
 
-**Inside polyphils**
+### Inside polyphils
 Built My Own polyphil library of methods like map,flat,foreach,filter,reduce,Object.keys(),Object.values(),Object.entries()<br>
 
-**Inside js-github-assignments**
+### Inside js-github-assignments
 Injected My github Assignment given by The OG [Hitesh Sir](https://www.youtube.com/@chaiaurcode) and [Piyush  Sir](https://www.youtube.com/@piyushgargdev) and @chaicode team , grateful to Hitesh sir, Piyush Sir, Anirudh Sir and all the TA's for these assignments<br>
 
-**Inside nodejs-internals**
+### Inside nodejs-internals
 Injected Some Very Good examples to understand the nodejs internals completely<br>
 
-**Inside T-Class-DOM-Work**
+### Inside T-Class-DOM-Work
 Completed the DOM Mini projects given by The OG [Surj jha sir](https://www.youtube.com/@codebysuraj)<br>
