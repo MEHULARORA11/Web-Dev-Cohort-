@@ -1,0 +1,13 @@
+/node_modules
+
+# 01_dark-mode-toggle
+/01_dark-mode-toggle/dist
+/01_dark-mode-toggle/tsconfig.json
+
+# 02_dynamic_list_creator
+/02_dynamic_list_creator/dist
+/02_dynamic_list_creator/tsconfig.json
+
+# 03_color-palette-generator
+/03_color-palette-generator/dist
+/03_color-palette-generator/tsconfig.json
