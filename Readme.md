@@ -14,7 +14,7 @@ Follow these steps to run the project locally.
    ```
 3. Now Explore The content , If Enjoyed Do star the repo, THANKS!!
 
-# Projects:-
+# My Work In Cohort:-
 ## In the CSS Folder
 <ul>
 <li>Built a mintlify UI/UX Landing Page clone</li>
@@ -24,12 +24,16 @@ Follow these steps to run the project locally.
 </ul>
 
 ## In the JS Folder
-<ul>
+
 
 **Inside polyphils**
-<li>Built My Own polyphil library of methods like map,flat,foreach,filter,reduce,Object.keys(),Object.values(),Object.entries()</li><br>
+Built My Own polyphil library of methods like map,flat,foreach,filter,reduce,Object.keys(),Object.values(),Object.entries()<br>
 
 **Inside js-github-assignments**
-<li>Injected My github Assignment given by @chaicode team , grateful to Hitesh sir, Piyush Sir, Anirudh Sir and all the TA's for these assignments</li>
+Injected My github Assignment given by The OG [Hitesh Sir](https://www.youtube.com/@chaiaurcode) and [Piyush  Sir](https://www.youtube.com/@piyushgargdev) and @chaicode team , grateful to Hitesh sir, Piyush Sir, Anirudh Sir and all the TA's for these assignments<br>
 
-</ul>
+**Inside nodejs-internals**
+Injected Some Very Good examples to understand the nodejs internals completely<br>
+
+**Inside T-Class-DOM-Work**
+Completed the DOM Mini projects given by The OG [Surj jha sir](https://www.youtube.com/@codebysuraj)<br>
