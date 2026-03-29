@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://tse2.mm.bing.net/th/id/OIP.qL2_aLhTcWDdmTL31gck5QAAAA?pid=Api&P=0&h=180" type="image/x-icon">
+<title>Todo App UI</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Dynamic List Creator</h1>
-        <div class="input-box">
-            <input type="text" id="itemInput" placeholder="Enter Item">
-            <button id="addBtn">Add</button>
-        </div>
-        <ul id="list"></ul>
+ 
+ 
+<form class="todo-container">
+    
 
-    </div>
+  <h1 class="todo-title">My Todo App</h1>
+
+  <div class="todo-input-area">
+    <div  contenteditable="true"></div> <!--NOTE in div we cant use placeholder also to use the event keydown we need to make it contenteditable="true" as otherwise we are not able to write something in div tag as for it we need to give it contenteditable = 'true' and we cant do it in case of input-->
+    <button type="button">Add</button>
+  </div>
+
+  <div class="todo-list">
+    <!-- Sample items (you’ll control using JS later) -->
+   
+   
+  </div>
+ 
+</form>
+
+<form class="memory">
+    <button type="button" class="reset-btn">Clear Memory</button>
+</form>
+
 </body>
-<script src="src/"></script>
+<script src="todo.js"></script>
 </html>
+
+
+</html> 

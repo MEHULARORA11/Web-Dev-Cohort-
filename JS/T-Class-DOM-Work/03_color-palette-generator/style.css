@@ -34,6 +34,17 @@ cursor:pointer;
 display:flex;
 gap:10px;
 }
+.sub-pallete{
+    width: 23vw;
+    min-height: 250px;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: transparent;
+}
 
 .color{
 width:100px;
