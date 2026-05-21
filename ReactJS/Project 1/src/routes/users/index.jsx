@@ -38,7 +38,9 @@ function RouteComponent() {
   console.log(users);
   return <div>
     <ul>
-      {users.map((user) =>(<Link key = {user.id} to={`/users/$userId`} params = {{userId: user.id}}  search={{ page }} ><li > {Object.values(user.name).join(' ')} </li><img src={user.picture.large}  alt={Object.values(user.name).join(' ')}/></Link>) )}
+      {users.map((user) =>(<Link key = {user.id} to={`/users/$userId`} params = {{userId: user.id}}  search={{ page }} ><li style = {{display:'inline-block', margin:'auto'}} > <div>
+        {Object.values(user.name).join(' ')} <img style = {{display:'block', margin:'auto'}} src={user.picture.large}  alt={Object.values(user.name).join(' ')}/>
+        </div> </li></Link>) )}
     </ul>
     <button onClick = {handleRefresh} >Refresh Users</button>
     

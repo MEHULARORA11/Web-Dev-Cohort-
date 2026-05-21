@@ -1,8 +1,10 @@
 import * as React from 'react'
 import { Outlet, createRootRoute,Link } from '@tanstack/react-router'
+import NotFound from '../../components/NotFound.jsx'
 
 export const Route = createRootRoute({
   component: RootComponent,
+  notFoundComponent: () => <NotFound />,
 })
 
 function RootComponent() {
