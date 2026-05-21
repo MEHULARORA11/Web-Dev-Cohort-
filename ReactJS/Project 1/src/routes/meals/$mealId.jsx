@@ -6,6 +6,7 @@ export const Route = createFileRoute('/meals/$mealId')({
   validateSearch:(search) => {
      return{
        page: search.page ? search.page : '1',
+       preference: search.preference
      }
    },
    component: RouteComponent,
@@ -23,7 +24,7 @@ export const Route = createFileRoute('/meals/$mealId')({
 
 function RouteComponent() {
     const meal =  Route.useLoaderData(); // this will give u the user data that u fetched in the loader function and u can use it to display the user details in this component
-    const {page} = Route.useSearch() // => important  // by this u can extract the page number from the search params and use it to navigate back to the correct page of users list 
+    const {page, preference} = Route.useSearch() // => important  // by this u can extract the page number from the search params and use it to navigate back to the correct page of users list 
     
 console.log(meal);
 const ingredients = [];
@@ -55,7 +56,7 @@ for (let i = 1; i <= 20; i++) {
         </ul>
       </div>
       
-    <Link to={`/meals/`}  search={{ page }} ><button><h1>Back to Meals</h1></button></Link>
+    <Link to={`/meals/`}  search={{ page , preference }} ><button><h1>Back to Meals</h1></button></Link>
     
   </div>
 }

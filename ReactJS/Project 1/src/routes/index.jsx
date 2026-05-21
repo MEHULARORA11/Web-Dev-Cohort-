@@ -21,8 +21,8 @@ function RouteComponent() {
   return (
     <>
       <h1>Home Page</h1>
-      <Link to="/users/" search={{ page: usersData.page }} ><button>View Users</button></Link>
-      <Link to="/meals/" search={{ page: mealsData.page }} ><button>View Meals</button></Link>
+      <Link to="/users/" search={{ page: usersData.page}} ><button>View Users</button></Link>
+      <Link to="/meals/" search={{ page: mealsData.page, preference: 'Any' }} ><button>View Meals</button></Link>
     </>
   )
 }
