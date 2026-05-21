@@ -23,6 +23,7 @@ function RouteComponent() {
       <h1>Home Page</h1>
       <Link to="/users/" search={{ page: usersData.page}} ><button>View Users</button></Link>
       <Link to="/meals/" search={{ page: mealsData.page, preference: 'Any' }} ><button>View Meals</button></Link>
+      <Link to="/timer/" ><button>View Timer App</button></Link>
     </>
   )
 }
