@@ -8,12 +8,10 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <React.Fragment>
-      <h1>Welcome to My Mini React-Tanstack Project , u can Navigate using the links below</h1>
+      <h3>Welcome to My Mini React-Tanstack Project , u can Navigate using the links below</h3>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li style = {{display:'inline-block', margin:'0 10px'}} ><Link to="/">Home</Link></li>
         </ul>
       </nav>
       <Outlet />
